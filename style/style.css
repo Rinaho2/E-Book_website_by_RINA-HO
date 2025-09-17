@@ -73,7 +73,7 @@ section .main h1{
 }
 
 section .main h1 span{
-    color: #089da1;
+    color: #71159b;
 }
 
 section .main p{
@@ -86,7 +86,7 @@ section .main p{
 }
 
 section .main .main_tag .main_btn{
-    background: #089da1;
+    background: #6d13a9;
     padding: 10px 20px;
     position: relative;
     top: 200px;
@@ -124,12 +124,12 @@ section .main .main_img img{
     text-align: center;
     width: 310px;
     height: auto;
-    box-shadow: 0 0 8px #089da1;
+    box-shadow: 0 0 8px #8610e7;
     padding: 15px 10px;
 }
 
 .services .services_box .services_card i{
-    color: #089da1;
+    color: #6b12be;
     font-size: 45px;
     margin-bottom: 15px;
     cursor: pointer;
