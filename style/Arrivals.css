@@ -1,18 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 
-section{
+section {
     width: 100%;
     height: 20vh;
     background-size: cover;
     background-position: center;
 }
 
-section nav{
+section nav {
     width: 100%;
     display: flex;
     align-items: center;
@@ -23,43 +23,44 @@ section nav{
     left: 0;
     z-index: 100;
 }
-section nav .logo img{
+
+section nav .logo img {
     width: 100px;
     cursor: pointer;
     margin: 8px 0;
 }
 
-section nav ul{
+section nav ul {
     list-style: none;
 }
 
-section nav li{
+section nav li {
     display: inline-block;
     padding: 0 10px;
 }
 
-section nav li a{
+section nav li a {
     text-decoration: none;
     color: #000;
 }
 
-section nav li a:hover{
+section nav li a:hover {
     color: #e600ff;
 }
 
-.arrivals{
+.arrivals {
     width: 100%;
     height: 100vh;
     margin-bottom: 35px;
 }
 
-.arrivals h1{
+.arrivals h1 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 35px;
 }
 
-.arrivals .arrivals_box{
+.arrivals .arrivals_box {
     width: 95%;
     margin: 0 auto;
     display: grid;
@@ -67,7 +68,7 @@ section nav li a:hover{
     grid-gap: 25px 0;
 }
 
-.arrivals .arrivals_box .arrivals_card{
+.arrivals .arrivals_box .arrivals_card {
     width: 250px;
     height: 340px;
     text-align: center;
@@ -76,20 +77,20 @@ section nav li a:hover{
     margin: auto 20px;
 }
 
-.arrivals .arrivals_box .arrivals_card:hover{
+.arrivals .arrivals_box .arrivals_card:hover {
     box-shadow: 0 0 5px #a865a2;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_image{
+.arrivals .arrivals_box .arrivals_card .arrivals_image {
     width: 150px;
     height: 220px;
     margin: 0 auto;
     cursor: pointer;
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
     overflow: hidden;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_image img{
+.arrivals .arrivals_box .arrivals_card .arrivals_image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -97,22 +98,22 @@ section nav li a:hover{
     transition: 0.3s;
 }
 
-.arrivals .arrivals_box .arrivals_card:hover .arrivals_image img{
+.arrivals .arrivals_box .arrivals_card:hover .arrivals_image img {
     transform: scale(1.1);
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_tag p{
+.arrivals .arrivals_box .arrivals_card .arrivals_tag p {
     font-family: queen of camelot;
     font-size: 20px;
     margin: 8px 0;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_icon{
+.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_icon {
     color: #451d51;
     margin-bottom: 18px;
 }
 
-.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn{
+.arrivals .arrivals_box .arrivals_card .arrivals_tag .arrivals_btn {
     padding: 8px 20px;
     border: 2px solid #532553;
     text-decoration: none;
@@ -121,7 +122,7 @@ section nav li a:hover{
 
 
 footer {
-    margin-top: 1600px;
+    margin-top: 2680px;
     width: 100%;
     background: #eaeaea;
 }
@@ -209,4 +210,3 @@ footer .end span {
     color: #ab10e8;
     margin-left: 10px;
 }
-
