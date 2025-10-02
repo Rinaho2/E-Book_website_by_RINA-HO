@@ -24,7 +24,7 @@ section nav{
     z-index: 100;
 }
 section nav .logo img{
-    width: 100px;
+    width: 105px;
     cursor: pointer;
     margin: 8px 0;
 }
@@ -140,7 +140,7 @@ section nav li a:hover{
 footer{
     margin-top: 150px;
     width: 100%;
-    background: #eaeaea;
+    background:  #e0dbe4;
 }
 
 footer .footer_main{

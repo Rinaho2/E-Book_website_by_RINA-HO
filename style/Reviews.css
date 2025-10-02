@@ -25,7 +25,7 @@ section nav {
 }
 
 section nav .logo img {
-    width: 100px;
+    width: 105px;
     cursor: pointer;
     margin: 8px 0;
 }
@@ -247,7 +247,7 @@ body::before {
 footer {
     margin-top: 80px;
     width: 120% ;
-    background: #eaeaea;
+    background:  #e0dbe4;
 }
 
 footer .footer_main {
